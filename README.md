@@ -12,13 +12,17 @@ Data Structure And Algorithm in Swift 4
 
 ## 5. Graph
 
+## 6. Tree
+
+## 7. Trie
+
 
 # Algorithm
 
-## 1. Merge Sort
+## 1. Merge/Quick Sort and Binary Search
 
-## 2. Quick Sort
+## 2. Graph DFS
 
-## 3. Binary Search
+## 3. Graph BFS
 
 Happy Coding :+1:  :sparkles:
