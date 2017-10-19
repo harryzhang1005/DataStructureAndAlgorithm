@@ -25,4 +25,13 @@ Data Structure And Algorithm in Swift 4
 
 ## 3. Graph BFS
 
+# Big-O Notation
+
+Big-O notation gives you a rough indication of the running time of an algorithm and the amount of memory it uses.
+The letter O is used because the growth rate of a function is also referred to as Order of the function. 
+
+<p align="center">
+  <img src="Big-O_Ntation.png" width=600></img>
+</p>
+
 Happy Coding :+1:  :sparkles:
