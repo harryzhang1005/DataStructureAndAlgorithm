@@ -7,8 +7,7 @@ import UIKit
 /*
 The root of a tree is level 0.
 The root of a tree refers to the 0th level's node of a tree. Means the entry point to a tree data structure.
-They are all nodes: root/root-node, node/normal-node, leaf/terminal-node
-
+They are all nodes: root/root-node, node/normal-node, leaf/terminal-node, tree, branch
 */
 
 // typealias RequiredProtocols = SomeProtocol & SomeOtherProtocol
@@ -32,7 +31,7 @@ public class Node<T: Hashable & Equatable> {
 	func search(value: T) -> Node<T>? {
 		// Recursive exit: This is the case where you've found the value. You return self, which is the current node.
 		if self.value == value {
-			return self
+			return self		// here self means some node
 		}
 		
 		// recursively iterate through all the children
@@ -59,7 +58,8 @@ extension Node: CustomStringConvertible {
 }
 
 // MARK: - Test Tree
-let beverages = Node(value: "beverages")
+
+let beverages = Node(value: "beverages")	// tree is also a node
 let hotBeverage = Node(value: "hot")
 let coldBeverage = Node(value: "cold")
 
